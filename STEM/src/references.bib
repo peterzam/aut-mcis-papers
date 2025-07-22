@@ -1,0 +1,317 @@
+@inproceedings{10.1145/1411204.1411255,
+author = {Dolstra, Eelco and L\"{o}h, Andres},
+title = {NixOS: a purely functional Linux distribution},
+year = {2008},
+isbn = {9781595939197},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1411204.1411255},
+doi = {10.1145/1411204.1411255},
+abstract = {Existing package and system configuration management tools suffer from an imperative model, where system administration actions such as upgrading packages or changes to system configuration files are stateful: they destructively update the state of the system. This leads to many problems, such as the inability to roll back changes easily, to run multiple versions of a package side-by-side, to reproduce a configuration deterministically on another machine, or to reliably upgrade a system. In this paper we show that we can overcome these problems by moving to a purely functional system configuration model. This means that all static parts of a system (such as software packages, configuration files and system startup scripts) are built by pure functions and are immutable, stored in a way analogously to a heap in a purely function language. We have implemented this model in NixOS, a non-trivial Linux distribution that uses the Nix package manager to build the entire system configuration from a purely functional specification.},
+booktitle = {Proceedings of the 13th ACM SIGPLAN International Conference on Functional Programming},
+pages = {367–378},
+numpages = {12},
+keywords = {NixOS, nix, package management, purely functional deployment model, purely functional language, software deployment, system configuration management},
+location = {Victoria, BC, Canada},
+series = {ICFP '08}
+}
+
+@article{10.1145/1411203.1411255,
+author = {Dolstra, Eelco and L\"{o}h, Andres},
+title = {NixOS: a purely functional Linux distribution},
+year = {2008},
+issue_date = {September 2008},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {43},
+number = {9},
+issn = {0362-1340},
+url = {https://doi.org/10.1145/1411203.1411255},
+doi = {10.1145/1411203.1411255},
+abstract = {Existing package and system configuration management tools suffer from an imperative model, where system administration actions such as upgrading packages or changes to system configuration files are stateful: they destructively update the state of the system. This leads to many problems, such as the inability to roll back changes easily, to run multiple versions of a package side-by-side, to reproduce a configuration deterministically on another machine, or to reliably upgrade a system. In this paper we show that we can overcome these problems by moving to a purely functional system configuration model. This means that all static parts of a system (such as software packages, configuration files and system startup scripts) are built by pure functions and are immutable, stored in a way analogously to a heap in a purely function language. We have implemented this model in NixOS, a non-trivial Linux distribution that uses the Nix package manager to build the entire system configuration from a purely functional specification.},
+journal = {SIGPLAN Not.},
+month = sep,
+pages = {367–378},
+numpages = {12},
+keywords = {NixOS, nix, package management, purely functional deployment model, purely functional language, software deployment, system configuration management}
+}
+
+
+@inproceedings{10.1145/3532105.3535016,
+author = {Dunlap, Trevor and Enck, William and Reaves, Bradley},
+title = {A Study of Application Sandbox Policies in Linux},
+year = {2022},
+isbn = {9781450393577},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3532105.3535016},
+doi = {10.1145/3532105.3535016},
+abstract = {Desktop operating systems, including macOS, Windows 10, and Linux, are adopting the application-based security model pervasive in mobile platforms. In Linux, this transition is part of the movement towards two distribution-independent application platforms: Flatpak and Snap. This paper provides the first analysis of sandbox policies defined for Flatpak and Snap applications, covering 283 applications contained in both platforms. First, we find that 90.1\% of Snaps and 58.3\% of Flatpak applications studied are contained by tamperproof sandboxes. Further, we find evidence that package maintainers actively attempt to define least-privilege application policies. However, defining policy is difficult and error-prone. When studying the set of matching applications that appear in both Flatpak and Snap app stores, we frequently found policy mismatches: e.g., the Flatpak version has a broad privilege (e.g., file access) that the Snap version does not, or vice versa. This work provides confidence that Flatpak and Snap improve Linux platform security while highlighting opportunities for improvement.},
+booktitle = {Proceedings of the 27th ACM on Symposium on Access Control Models and Technologies},
+pages = {19–30},
+numpages = {12},
+keywords = {sandbox policy, access control, Linux applications},
+location = {New York, NY, USA},
+series = {SACMAT '22}
+}
+
+@article{ANTUNES2014649,
+  title    = {Performance of Jails versus Virtualization for Cloud Computing Solutions},
+  journal  = {Procedia Technology},
+  volume   = {16},
+  pages    = {649-658},
+  year     = {2014},
+  note     = {CENTERIS 2014 - Conference on ENTERprise Information Systems / ProjMAN 2014 - International Conference on Project MANagement / HCIST 2014 - International Conference on Health and Social Care Information Systems and Technologies},
+  issn     = {2212-0173},
+  doi      = {https://doi.org/10.1016/j.protcy.2014.10.013},
+  url      = {https://www.sciencedirect.com/science/article/pii/S2212017314002400},
+  author   = {Carlos Antunes and Ricardo Vardasca},
+  keywords = {Cloud computing, jail environments, optimization, performance.},
+  abstract = {The existence of a virtualization layer within the cloud affects the resources optimization and the reduction of requirements of its implementation. In this publication the focus will be the use of jail environments, provided by the FreeBSD Operating System, which present a relevant set of features that can enhance the increase of performance. A set of data collection tests that allows measuring the degree of optimization obtainable in current models of cloud computing, based on the use of hypervisors tests, are presented. These tests proved that the increase in performance and optimization of resources is possible, bringing up the need to adapt the current models of cloud computing for the use of such solutions. However, this increase in performance, leads to a loss of flexibility of the usage of independent operating systems, which is not relevant to the model of cloud computing business.}
+}
+
+@inproceedings{10.1007/978-3-642-24418-6_21,
+  author    = {Thomson, John
+               and Guerreiro, Andre
+               and Trezentos, Paulo
+               and Johnson, Jeff},
+  editor    = {Hissam, Scott A.
+               and Russo, Barbara
+               and de Mendon{\c{c}}a Neto, Manoel G.
+               and Kon, Fabio},
+  title     = {Package Upgrade Robustness: An Analysis for GNU/Linux® Package Management Systems},
+  booktitle = {Open Source Systems: Grounding Research},
+  year      = {2011},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {299--306},
+  abstract  = {GNU/Linux systems are today used in servers, desktops, mobile and embedded devices. One of the critical operations is the installation and maintenance of software packages in the system. Currently there are no frameworks or tools for evaluating Package Management Systems (PMSs), such as RPM, in Linux and for measuring their reliability. The authors perform an analysis of the robustness of the RPM engine and discuss some of the current limitations. This article contributes to the enhancement of Software Reliability in Linux by providing a framework and testing tools under an open source license. These tools can easily be extended to other PMSs such as DEB packages or Gentoo Portage.},
+  isbn      = {978-3-642-24418-6}
+}
+
+ @phdthesis{Ryding_Johansson_2020,
+  title        = {Jails vs Docker : A performance comparison of different container technologies},
+  url          = {https://urn.kb.se/resolve?urn=urn:nbn:se:miun:diva-39517},
+  abstractnote = {Virtualization is used extensively by Enterprise IT architecture and cloud computing, it is used to provide customers a part of their hardware resources as a service. Container technology is the new generation of virtualization and provides performance benefits due to less overhead. Earlier research has compared different container technologies regarding their performance, including Docker which is the most popular container technology. Most of this research has been focusing on Linux based container technologies. Even though there is interest in knowing how other container technologies under different operating systems perform. In this study we explore the performance of Docker in contrast to the performance of a contending container technology named Jails. We present how well each container technology performs running one or multiple containers, in the areas of CPU, memory, read from disk, write to disk, network and startup time efficiency. The comparison was done using collected statistics from different benchmarking tools. Results from this study have shown that Docker is utilizing shared resources and has better stability compared to Jails. We also discuss what unexplored benefits Docker and Jails can have by implementing each other’s unique features. Future work could consist of writing to disk or reading from disk performance tests under one common filesystem, e.g., ZFS file system.},
+  booktitle = {Jails vs Docker : A performance comparison of different container technologies},
+  author       = {Ryding, Christian and Johansson, Rickard},
+  year         = {2020},
+  school       = {Mid Sweden University}
+}
+
+
+@inproceedings{10.1109/ICSE.2007.59,
+  author    = {Tucker, Chris and Shuffelton, David and Jhala, Ranjit and Lerner, Sorin},
+  title     = {OPIUM: Optimal Package Install/Uninstall Manager},
+  year      = {2007},
+  isbn      = {0769528287},
+  publisher = {IEEE Computer Society},
+  address   = {USA},
+  url       = {https://doi.org/10.1109/ICSE.2007.59},
+  doi       = {10.1109/ICSE.2007.59},
+  abstract  = {Linux distributions often include package management tools such as apt-get in Debian or yum in RedHat. Using information about package dependencies and conflicts, such tools can determine how to install a new package (and its dependencies) on a system of already installed packages. Using off-the-shelf SAT solvers, pseudo-boolean solvers, and Integer Linear Programming solvers, we have developed a new package-management tool, called Opium, that improves on current tools in two ways: (1) Opium is complete, in that if there is a solution, Opium is guaranteed to find it, and (2) Opium can optimize a user-provided objective function, which could for example state that smaller packages should be preferred over larger ones. We performed a comparative study of our tool against Debian's apt-get on 600 traces of real-world package installations. We show that Opium runs fast enough to be usable, and that its completeness and optimality guarantees provide concrete benefits to end users.},
+  booktitle = {Proceedings of the 29th International Conference on Software Engineering},
+  pages     = {178–188},
+  numpages  = {11},
+  series    = {ICSE '07}
+}
+
+@Misc{P-Jian,
+  title = {Dr Jian Yu},
+  author = {Dr Jian Yu},
+  year = {2025},
+  url = {https://academics.aut.ac.nz/jian.yu},
+}
+
+
+@misc{xorg,
+  title        = {{X.Org Foundation}},
+  howpublished = {\url{https://www.x.org/}},
+  url          = {https://www.x.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{zoom,
+  title        = {{Zoom Video Communications}},
+  howpublished = {\url{https://zoom.com/}},
+  url          = {https://zoom.com/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{brave,
+  title        = {{Brave Browser}},
+  howpublished = {\url{https://brave.com/}},
+  url          = {https://brave.com/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{winehq,
+  title        = {{WineHQ - The Wine Project}},
+  howpublished = {\url{https://www.winehq.org/}},
+  url          = {https://www.winehq.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{kernelorg,
+  title        = {{The Linux Kernel Archives}},
+  howpublished = {\url{https://www.kernel.org/}},
+  url          = {https://www.kernel.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{ubuntu,
+  title        = {{Ubuntu - The Linux Distribution}},
+  howpublished = {\url{https://ubuntu.com/}},
+  url          = {https://ubuntu.com/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{obsidian,
+  title        = {{Obsidian - A powerful knowledge base}},
+  howpublished = {\url{https://obsidian.md/}},
+  url          = {https://obsidian.md/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{flatpak,
+  title        = {{Flatpak - A universal packaging system}},
+  howpublished = {\url{https://flatpak.org/}},
+  url          = {https://flatpak.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{appimage,
+  title        = {{AppImage - Universal Linux applications}},
+  howpublished = {\url{https://appimage.org/}},
+  url          = {https://appimage.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{apparmor,
+  title        = {{AppArmor - Mandatory Access Control}},
+  howpublished = {\url{https://apparmor.net/}},
+  url          = {https://apparmor.net/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{overleaf,
+  title        = {{Overleaf - Online LaTeX Editor}},
+  howpublished = {\url{https://www.overleaf.com/}},
+  url          = {https://www.overleaf.com/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{mikrotik,
+  title        = {{MikroTik - Routers and Wireless}},
+  howpublished = {\url{https://mikrotik.com/}},
+  url          = {https://mikrotik.com/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{snapcraft,
+  title        = {{Snapcraft - Snaps for Linux}},
+  howpublished = {\url{https://snapcraft.io/}},
+  url          = {https://snapcraft.io/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{rproject,
+  title        = {{The R Project for Statistical Computing}},
+  howpublished = {\url{https://www.r-project.org/}},
+  url          = {https://www.r-project.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{torproject,
+  title        = {{The Tor Project}},
+  howpublished = {\url{https://www.torproject.org/}},
+  url          = {https://www.torproject.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{alpinelinux,
+  title        = {{Alpine Linux}},
+  howpublished = {\url{https://www.alpinelinux.org/}},
+  url          = {https://www.alpinelinux.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{docker_github,
+  title        = {{Docker on GitHub}},
+  howpublished = {\url{https://github.com/docker}},
+  url          = {https://github.com/docker},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{fedora,
+  title        = {{Fedora Project}},
+  howpublished = {\url{https://fedoraproject.org/}},
+  url          = {https://fedoraproject.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{latexproject,
+  title        = {{The \LaTeX{} Project}},
+  howpublished = {\url{https://www.latex-project.org/}},
+  url          = {https://www.latex-project.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{containers_github,
+  title        = {{Containers organization on GitHub}},
+  howpublished = {\url{https://github.com/containers}},
+  url          = {https://github.com/containers},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{ggplot2,
+  title        = {{ggplot2 - Elegant Graphics for Data Analysis}},
+  howpublished = {\url{https://ggplot2.tidyverse.org/}},
+  url          = {https://ggplot2.tidyverse.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{wayland,
+  title        = {{Wayland - A display server protocol}},
+  howpublished = {\url{https://wayland.freedesktop.org/}},
+  url          = {https://wayland.freedesktop.org/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{peterzambox,
+  title        = {{peterzam/box on GitHub}},
+  howpublished = {\url{https://github.com/peterzam/box}},
+  url          = {https://github.com/peterzam/box},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
+
+@misc{pulseaudio_wiki,
+  title        = {{PulseAudio on freedesktop.org Wiki}},
+  howpublished = {\url{https://www.freedesktop.org/wiki/Software/PulseAudio/}},
+  url          = {https://www.freedesktop.org/wiki/Software/PulseAudio/},
+  note         = {Accessed: June 10, 2025},
+  year         = {2025}
+}
