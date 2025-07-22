@@ -9,8 +9,12 @@ This project uses a dual-licensing model to clearly distinguish between its code
 *   **Code:** All source code within this repository is licensed under the **GNU General Public License v3.0**.
     *   You can find the full text of this license in the [LICENSE](LICENSE) file.
 
-*   **Content:** All documentation, textual content, images, and other non-code assets are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**.
+*   **Content:** All documentation, textual content, \*images, and other non-code assets are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License**.
     *   You can find the full text of this license in the [LICENSE-CONTENT.md](LICENSE-CONTENT.md) file.
+
+
+*\*Some images include brandings this licenses does not cover.*
+
 
 ### Contributing
 
